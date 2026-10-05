@@ -1,0 +1,122 @@
+/* GENERAL PAGE STYLING */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+
+/* HEADER */
+
+header {
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(135deg, #0d6efd, #0a2f5a);
+}
+
+header h1 {
+    font-weight: 700;
+}
+
+
+/* NAVIGATION */
+
+.navbar-brand {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    transform: translateY(-2px);
+    opacity: 0.8;
+}
+
+
+/* SECTIONS */
+
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+section h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+
+/* CARDS */
+
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+
+/* TABLE */
+
+.table {
+    background-color: white;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+
+/* BUTTON */
+
+.btn {
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+
+/* FOOTER */
+
+footer {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(135deg, #0a2f5a, #0d6efd);
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
